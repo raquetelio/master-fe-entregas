@@ -37,9 +37,9 @@ npm init
 npx parcel src/index.html
 ```
 
--Abrir en navegador según el puerto indicado. 
+- Abrir en navegador según el puerto indicado. 
 Por ejemplo:
 ```
 http://localhost:1234
 ```
--El resultado debería ser el siguiente:
+- El resultado debería ser el siguiente:
