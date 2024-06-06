@@ -1,4 +1,4 @@
-# Laboratorio Módulo 0 Layout
+# Laboratorio Módulo 1 Layout
 
 ## Ejercicio 1: Crear una paleta de colores dinámica.
 
@@ -43,3 +43,6 @@ Ej: http://localhost:1234
 
 
 
+
+
+Tengo que hacer 3 filas de ello
