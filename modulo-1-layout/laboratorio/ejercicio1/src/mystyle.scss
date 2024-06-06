@@ -1,0 +1,7 @@
+
+.container-1 {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat(3,150px);
+    background-color: aqua;
+}

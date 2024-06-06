@@ -1,0 +1,1 @@
+{"mappings":"AACA","sources":["src/mystyle.scss"],"sourcesContent":["\n.container-1 {\n    display: grid;\n    grid-template-columns: repeat(9, 100px);\n    grid-template-rows: repeat(3,150px);\n    background-color: aqua;\n}"],"names":[],"version":3,"file":"index.23312501.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,7 @@
+.container-1 {
+  background-color: #0ff;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(9, 100px);
+  display: grid;
+}
+/*# sourceMappingURL=index.23312501.css.map */

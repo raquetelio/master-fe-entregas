@@ -29,4 +29,17 @@ con clases.
 
 ### Resultado
 
-Ir a carpeta ejerecicio1.
+Descargar carpeta ejerecicio1.
+Abrir terminal en carpeta raíz.
+
+Ejecutar 
+```
+npm init
+npx parcel src/index.html
+```
+
+Abrir en navegador según el puerto indicado. 
+Ej: http://localhost:1234
+
+
+
