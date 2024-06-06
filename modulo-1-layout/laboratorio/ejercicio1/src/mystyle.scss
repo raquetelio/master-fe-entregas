@@ -1,7 +1,27 @@
+@use "base" as *;
 
-.container-1 {
-    display: grid;
+
+@for $i from 1 through $num-paletas {
+.container-#{$i} {
+    display: grid;    
     grid-template-columns: repeat(9, 100px);
-    grid-template-rows: repeat(3,150px);
-    background-color: aqua;
+    grid-template-rows: 150px;
+    
+    column-gap: 16px;
+    padding-top: 16px;
+
+    
+
+
+    div {
+        
+        align-content: center;
+        text-align: center;        
+        background-color: aqua;
+    }
+
+
+    
+    
+}
 }
