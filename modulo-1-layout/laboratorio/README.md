@@ -10,7 +10,7 @@ La idea es partir de un color base, y a partir de ese color generar 4 colores m�
 
 Para comprobar que todo está funcionando como se espera utilizar el siguiente html:
 
-``html`
+```
 <div class="container-1">
 <div class="box darken-4"><span class="color-box-text">Darken 4</span></div>
 <div class="box darken-3"><span class="color-box-text">Darken 3</span></div>
@@ -41,8 +41,4 @@ npx parcel src/index.html
 Abrir en navegador según el puerto indicado. 
 Ej: http://localhost:1234
 
-
-
-
-
-Tengo que hacer 3 filas de ello
+El resultado debería ser el siguiente:
