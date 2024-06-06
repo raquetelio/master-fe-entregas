@@ -2,7 +2,7 @@
 
 ## Ejercicio 1: Crear una paleta de colores dinámica.
 
-### Enunciado:
+### Enunciado
 
 Usar el lenguaje Sass para crear distintos temas de paletas de colores.
 La idea es partir de un color base, y a partir de ese color generar 4 colores más oscuros de manera gradual, y cuatro colores más claros de manera gradual.
@@ -29,16 +29,17 @@ con clases.
 
 ### Resultado
 
-Descargar carpeta ejerecicio1.
-Abrir terminal en carpeta raíz.
-
-Ejecutar 
+- Descargar carpeta ejerecicio1.
+- Abrir terminal en carpeta raíz.
+- Ejecutar 
 ```
 npm init
 npx parcel src/index.html
 ```
 
-Abrir en navegador según el puerto indicado. 
-Ej: http://localhost:1234
-
-El resultado debería ser el siguiente:
+-Abrir en navegador según el puerto indicado. 
+Por ejemplo:
+```
+http://localhost:1234
+```
+-El resultado debería ser el siguiente:
