@@ -18,21 +18,23 @@
             $current-color-palette: $color-palette-3;
         }
 
-      //  div {
             $j: 1;
             @while $j <=$num-color-tones {
                 :nth-child(#{$j}) {                 
                     background-color: gradual-color($current-color-palette , $j*4);
+                   
 
                     span{
                         background-color: gradual-color($current-color-palette , $j*4);
+                        color:gradual-color($primary-text-color , 100 - pow($j,2));                      
                     }
                     
                 }    
                 $j: $j + 1;
-        //    }   
+ 
         }
     }
 }
 
+//Siguientes pasos: que el del medio sea el base color y que los de arriba y abajo sean colores en función de su clase: más oscuros y más claros
 
