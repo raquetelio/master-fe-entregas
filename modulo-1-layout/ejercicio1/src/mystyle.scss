@@ -1,31 +1,19 @@
 @use "base" as *;
 
 
-@for $i from 1 through $num-color-palettes {
-.container-#{$i} {
-    display: grid;    
-    grid-template-columns: repeat(9, 100px);
-    grid-template-rows: 150px;
-    
-    column-gap: 16px;
-    padding-top: 16px;   
-
-    div {        
-        align-content: center;
-        text-align: center;
-        border-radius: 5px;
-    }    
-}
-}
-
 .container-1 div{
+    @include color-palette;
     background-color: $primary-color-palette;
 }
 .container-2 div{
+    @include color-palette;
     background-color: $secondary-color-palette;
 }
 .container-3 div{
+    @include color-palette;
     background-color: $terciary-color-palette;
 }
 
+
+    
 

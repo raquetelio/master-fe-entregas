@@ -1,5 +1,22 @@
 $num-color-palettes: 3;
+$num-color-tones: 9;
 
 $primary-color-palette: aqua;
 $secondary-color-palette: olive;
 $terciary-color-palette: pink;
+
+@mixin color-palette{
+    display: grid;    
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: 150px;
+    
+    column-gap: 16px;
+    padding-top: 16px;   
+
+    div {        
+        align-content: center;
+        text-align: center;
+        border-radius: 5px;
+        
+    }   
+}
