@@ -1,27 +1,25 @@
 @use "base" as *;
 
 
-
-.container-1 {   
-    @include color-palette;
-   
-    
+@for $i from 1 through $num-color-palettes {
+    .container-#{$i} {
+        @include color-palette;
+    }
 }
 
-.container-1 div {   
-   
+
+
+.container-1 div {
     background-color: $primary-color-palette;
-    
+
 }
-.container-2 div{
-    @include color-palette;
+
+.container-2 div {
+
     background-color: $secondary-color-palette;
 }
-.container-3 div{
-    @include color-palette;
+
+.container-3 div {
+
     background-color: $terciary-color-palette;
 }
-
-
-    
-
