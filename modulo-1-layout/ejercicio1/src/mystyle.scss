@@ -1,34 +1,73 @@
 @use "base" as *;
 
 
-.container-1 div {
-    background-color: $color-palette-1;     
-}
-
-.container-2 div {
-    background-color: $color-palette-2;
-}
-
-.container-3 div {
-    background-color: $color-palette-3;
-}
-
-$i: 1;
-
 @for $i from 1 through $num-color-palettes {
+
+    $current-color-palette:null;
+
     .container-#{$i} {
-        @include color-palette;
+        @include color-palette-style;
+
+        @if $i==1 {
+            $current-color-palette: $color-palette-1;
+        }
+        @else if $i==2 {
+            $current-color-palette: $color-palette-2;
+        }
+        @else  {
+            $current-color-palette: $color-palette-3;
+        }
+
 
         $j: 1;
         @while $j <=$num-color-tones {
-            :nth-child(#{$j}) {
-                background-color: gradual-color($color-palette-#{$i} , $j*4);
-            }
-
+            :nth-child(#{$j}) {                 
+                background-color: gradual-color($current-color-palette , $j*4);
+            }    
             $j: $j + 1;
         }   
     }
 }
 
+
+.container-1 div {
+    background-color: $color-palette-1;   
+ 
+    $j: 1;
+    @while $j <=$num-color-tones {
+        :nth-child(#{$j}) {
+            background-color: gradual-color($color-palette-1 , $j*4);
+        }
+
+        $j: $j + 1;
+    }   
+   
+}
+
+.container-2 div {
+    background-color: $color-palette-2;
+
+    $j: 1;
+    @while $j <=$num-color-tones {
+        :nth-child(#{$j}) {
+            background-color: gradual-color($color-palette-2 , $j*4);
+        }
+
+        $j: $j + 1;
+    }   
+}
+
+.container-3 div {
+    background-color: $color-palette-3;
+
+    $j: 1;
+    @while $j <=$num-color-tones {
+        :nth-child(#{$j}) {
+            background-color: gradual-color($color-palette-3 , $j*4);
+        }
+
+        $j: $j + 1;
+    }   
+}
 
 

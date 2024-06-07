@@ -7,7 +7,7 @@ $color-palette-3: pink;
 
 $primary-text-color: black;
 
-@mixin color-palette{
+@mixin color-palette-style{
     display: grid;    
     grid-template-columns: repeat($num-color-tones, 100px);
     grid-template-rows: 150px;
@@ -29,4 +29,5 @@ $primary-text-color: black;
     @return (adjust-color($color: $color, $hue: 0, $saturation: 0%, $lightness: $amount, $alpha: 1.0));
     //color: adjust-color($color: $primary-text-color, $hue: -200, $saturation: 50%, $lightness: 0%, $alpha: 0.5);
 }
+
 
