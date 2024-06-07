@@ -43,3 +43,5 @@ Por ejemplo:
 http://localhost:1234
 ```
 - El resultado debería ser el siguiente:
+
+*Incluir resultado*
