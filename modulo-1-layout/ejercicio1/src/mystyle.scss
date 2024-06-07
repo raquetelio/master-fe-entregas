@@ -1,9 +1,17 @@
 @use "base" as *;
 
 
-.container-1 div{
+
+.container-1 {   
     @include color-palette;
+   
+    
+}
+
+.container-1 div {   
+   
     background-color: $primary-color-palette;
+    
 }
 .container-2 div{
     @include color-palette;

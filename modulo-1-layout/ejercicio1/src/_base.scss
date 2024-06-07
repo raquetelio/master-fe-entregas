@@ -7,7 +7,7 @@ $terciary-color-palette: pink;
 
 @mixin color-palette{
     display: grid;    
-    grid-template-columns: repeat(9, 100px);
+    grid-template-columns: repeat($num-color-tones, 100px);
     grid-template-rows: 150px;
     
     column-gap: 16px;
