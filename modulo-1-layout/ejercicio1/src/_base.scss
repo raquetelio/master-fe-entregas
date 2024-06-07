@@ -5,6 +5,8 @@ $primary-color-palette: aqua;
 $secondary-color-palette: olive;
 $terciary-color-palette: pink;
 
+$primary-text-color: black;
+
 @mixin color-palette{
     display: grid;    
     grid-template-columns: repeat($num-color-tones, 100px);
@@ -17,6 +19,12 @@ $terciary-color-palette: pink;
         align-content: center;
         text-align: center;
         border-radius: 5px;
+        color: $primary-text-color;
         
     }   
+}
+
+@function gradual-color($color, $amount) {
+    @return (adjust-color($color: $color, $hue: 0, $saturation: 0%, $lightness: $amount, $alpha: 1.0));
+    //color: adjust-color($color: $primary-text-color, $hue: -200, $saturation: 50%, $lightness: 0%, $alpha: 0.5);
 }

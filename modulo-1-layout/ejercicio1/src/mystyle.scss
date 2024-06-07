@@ -10,16 +10,35 @@
 
 
 .container-1 div {
-    background-color: $primary-color-palette;
-
+    background-color: $primary-color-palette;     
 }
 
 .container-2 div {
-
     background-color: $secondary-color-palette;
 }
 
 .container-3 div {
-
     background-color: $terciary-color-palette;
 }
+
+
+
+.container-1  {   
+    $j: 1;
+
+        @while $j <=$num-color-tones {
+            :nth-child(#{$j}) {
+                background-color: gradual-color($primary-color-palette , $j*4);
+            }
+
+            $j: $j + 1;
+        }    
+   
+}
+
+//adjust-color($color: $primary-color-palette, $hue: 0, $saturation: 0%, $lightness: 20%, $alpha: 1.0);
+//          color: adjust-color($color: $primary-text-color, $hue: -200, $saturation: 50%, $lightness: 0%, $alpha: 0.5);
+
+
+
+
