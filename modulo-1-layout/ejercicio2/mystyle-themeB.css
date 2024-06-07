@@ -1,0 +1,9 @@
+@import url("base.css");
+
+html {
+    --base-color: blue;
+    --important-color: darkblue;
+    --warning-color: aqua;
+
+ 
+}

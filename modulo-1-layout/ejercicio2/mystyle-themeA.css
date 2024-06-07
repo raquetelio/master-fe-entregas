@@ -1,0 +1,14 @@
+@import url("base.css");
+
+html {
+    --base-color: red;
+    --important-color: darkred;
+    --warning-color:pink;
+
+    --principal-font: sans-serif;
+    --secondary-font: monospace;
+
+
+}
+
+

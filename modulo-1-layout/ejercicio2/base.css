@@ -1,0 +1,40 @@
+
+html {
+    --base-color: white;
+    --important-color: orange;
+    --warning-color:yellow;
+    --principal-font: sans-serif;
+    --secondary-font: monospace;
+}
+
+div{
+    padding: 16px;  
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;   
+}
+
+.filled-box{
+    background-color: var(--base-color);
+}
+
+.important{
+    background-color: var(--important-color);
+}
+
+.warning{
+    background-color: var(--warning-color);
+}
+
+
+.principal{
+    font-family: var(--principal-font);
+}
+
+.secondary{
+    font-family: var(--secondary-font);
+}
+
