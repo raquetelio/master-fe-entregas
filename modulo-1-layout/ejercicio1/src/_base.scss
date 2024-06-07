@@ -1,9 +1,9 @@
 $num-color-palettes: 3;
 $num-color-tones: 9;
 
-$primary-color-palette: aqua;
-$secondary-color-palette: olive;
-$terciary-color-palette: pink;
+$color-palette-1: aqua;
+$color-palette-2: olive;
+$color-palette-3: pink;
 
 $primary-text-color: black;
 
@@ -24,7 +24,9 @@ $primary-text-color: black;
     }   
 }
 
+
 @function gradual-color($color, $amount) {
     @return (adjust-color($color: $color, $hue: 0, $saturation: 0%, $lightness: $amount, $alpha: 1.0));
     //color: adjust-color($color: $primary-text-color, $hue: -200, $saturation: 50%, $lightness: 0%, $alpha: 0.5);
 }
+
