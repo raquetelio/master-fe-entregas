@@ -1,7 +1,7 @@
 @use "base" as *;
 
 
-@for $i from 1 through $num-paletas {
+@for $i from 1 through $num-color-palettes {
 .container-#{$i} {
     display: grid;    
     grid-template-columns: repeat(9, 100px);
@@ -10,16 +10,22 @@
     column-gap: 16px;
     padding-top: 16px;   
 
-
     div {        
         align-content: center;
         text-align: center;
-
-        background-color: aqua;
-    }
-
-
-    
-    
+        border-radius: 5px;
+    }    
 }
 }
+
+.container-1 div{
+    background-color: $primary-color-palette;
+}
+.container-2 div{
+    background-color: $secondary-color-palette;
+}
+.container-3 div{
+    background-color: $terciary-color-palette;
+}
+
+
