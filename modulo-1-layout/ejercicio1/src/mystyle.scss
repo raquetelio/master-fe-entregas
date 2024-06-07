@@ -1,9 +1,10 @@
 @use "base" as *;
 
 
+
 @for $i from 1 through $num-color-palettes {
 
-    $current-color-palette:null;
+    $current-color-palette: null;
 
     .container-#{$i} {
         @include color-palette-style;
@@ -11,30 +12,47 @@
         @if $i==1 {
             $current-color-palette: $color-palette-1;
         }
+
         @else if $i==2 {
             $current-color-palette: $color-palette-2;
         }
-        @else  {
+
+        @else {
             $current-color-palette: $color-palette-3;
         }
 
-            $j: 1;
-            @while $j <=$num-color-tones {
-                :nth-child(#{$j}) {                 
-                    background-color: gradual-color($current-color-palette , $j*4);
-                   
+        .box,
+        span {
+            background-color: $current-color-palette;
+            color: $primary-text-color ;
 
-                    span{
-                        background-color: gradual-color($current-color-palette , $j*4);
-                        color:gradual-color($primary-text-color , 100 - pow($j,2));                      
-                    }
-                    
-                }    
-                $j: $j + 1;
- 
         }
+
+
+
+        $j: 1;
+
+        @while $j <=$num-color-levels {
+
+            .darken-#{$j},
+            .darken-#{$j} span {
+                background-color: gradual-color($current-color-palette , $j*(-4));
+                color: gradual-color($primary-text-color , 100% - (4-$j)*8);
+            }
+
+            .lighten-#{$j},
+            .lighten-#{$j} span {
+                background-color: gradual-color($current-color-palette , $j*8);
+                color: gradual-color($primary-text-color , -100% + (4-$j)*20 );
+            }
+
+            $j: $j + 1;
+        }
+
+
+
+
     }
+
+
 }
-
-//Siguientes pasos: que el del medio sea el base color y que los de arriba y abajo sean colores en función de su clase: más oscuros y más claros
-
