@@ -6,20 +6,27 @@ body {
 }
 
 .menu{
-    margin: 0px;
-    padding: 16px;
-    display: flex;
+    margin: 0px;    
+    padding: 0px;
+    display: flex;  
     background-color: cadetblue;
     justify-content: space-between;
     align-content: center;
-    align-items: center;   
+    align-items: center; 
+  
    
     
 }
 
 .menu-item {
-    display: inline-flex;
+    padding: 16px;
+    height: 30px;
+    display: inline;
     color: white;
+    flex:auto;
+    text-align: center;
+
+    
 }
 
 .menu-item:hover {
