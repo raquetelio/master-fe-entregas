@@ -61,3 +61,11 @@ Crear dos temas distintos y mostrar los resultados en una página.
     ![Resultado Ejercicio 2 Tema B Laboratorio layout](images/modulo1-layout-ejercicio2-temaB.png)
 
 
+## Ejercicio 3: Crear la barra de navegación de la imagen usando Flexbox.
+
+### Enunciado
+Crear la barra de navegación de la imagen usando Flexbox.
+La barra de navegación responde a distintas resoluciones. Utilizar media queries para conseguir este resultado.
+
+
+### Resultado
