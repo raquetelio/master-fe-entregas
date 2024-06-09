@@ -1,0 +1,27 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.menu{
+    margin: 0px;
+    padding: 16px;
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;   
+   
+    
+}
+
+.menu-item {
+    display: inline-flex;
+    color: white;
+}
+
+.menu-item:hover {
+    background-color:darkslategray
+}
