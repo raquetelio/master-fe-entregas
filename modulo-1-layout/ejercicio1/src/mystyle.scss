@@ -21,13 +21,11 @@
             $current-color-palette: $color-palette-3;
         }
 
-        .box,
-        span {
+        .box {
             background-color: $current-color-palette;
             color: $primary-text-color ;
 
         }
-
 
 
         $j: 1;
@@ -36,14 +34,14 @@
 
             .darken-#{$j},
             .darken-#{$j} span {
-                background-color: gradual-color($current-color-palette , $j*(-4));
-                color: gradual-color($primary-text-color , 100% - (4-$j)*8);
+                background-color: gradual-color($current-color-palette , $j*(-4%));
+                color: gradual-color($primary-text-color , 100% - (4-$j)*8%);
             }
 
             .lighten-#{$j},
             .lighten-#{$j} span {
-                background-color: gradual-color($current-color-palette , $j*8);
-                color: gradual-color($primary-text-color , -100% + (4-$j)*20 );
+                background-color: gradual-color($current-color-palette , $j*8%);
+                color: gradual-color($primary-text-color , -100% + (4-$j)*20% );
             }
 
             $j: $j + 1;
