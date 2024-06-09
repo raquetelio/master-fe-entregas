@@ -69,3 +69,12 @@ La barra de navegación responde a distintas resoluciones. Utilizar media querie
 
 
 ### Resultado
+
+Se ha utilizado un diseño responsivo Desktop first.
+
+Me falta que el hover del menu en modo mobile coja todo el espacio del contenedor padre.
+
+
+
+
+## Ejercicio 4: Crearemos un elemento de tipo card con Grid CSS.

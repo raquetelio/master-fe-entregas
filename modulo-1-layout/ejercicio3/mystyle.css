@@ -8,11 +8,13 @@ body {
 .menu{
     margin: 0px;    
     padding: 0px;
-    display: flex;  
+    display: flex; 
+    flex-direction: row; 
     background-color: cadetblue;
     justify-content: space-between;
     align-content: center;
     align-items: center; 
+
   
    
     
@@ -21,14 +23,48 @@ body {
 .menu-item {
     padding: 16px;
     height: 30px;
-    display: inline;
-    color: white;
-    flex:auto;
-    text-align: center;
-
+    display: block;
+    color: white;   
+    flex: 1;
     
 }
 
 .menu-item:hover {
-    background-color:darkslategray
+    background-color:darkslategray;
+
 }
+
+@media screen and (max-width:320px){
+
+    body {
+        padding-left: 16px;
+    }
+    
+    .menu {
+         flex-direction: column; 
+        
+    }
+    .menu-item {
+       
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (320px < width){
+
+   
+    .menu {
+        flex-direction: row; 
+       
+   }
+    .menu-item {
+        text-align: left;
+    }
+
+    
+}
+
+
+
