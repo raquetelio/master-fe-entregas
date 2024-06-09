@@ -5,5 +5,8 @@ html {
     --important-color: darkblue;
     --warning-color: aqua;
 
- 
+    --principal-font: serif;
+    --secondary-font: monospace;
+
+    --box-shadow: 10px 5px 5px grey;
 }

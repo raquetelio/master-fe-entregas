@@ -5,6 +5,7 @@ html {
     --warning-color:yellow;
     --principal-font: sans-serif;
     --secondary-font: monospace;
+    --box-font-family:system-ui;
 }
 
 div{
@@ -15,10 +16,13 @@ div{
     height: 100px;
     width: 100px;
     border: 1px solid black;   
+    font-family: var(--box-font-family);
+    font-weight: bold;
 }
 
 .filled-box{
-    background-color: var(--base-color);
+    background-color: var(--base-color);    
+    
 }
 
 .important{
@@ -38,3 +42,6 @@ div{
     font-family: var(--secondary-font);
 }
 
+.shadow-box{
+    box-shadow: var(--box-shadow);
+}

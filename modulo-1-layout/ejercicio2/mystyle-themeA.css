@@ -6,7 +6,9 @@ html {
     --warning-color:pink;
 
     --principal-font: sans-serif;
-    --secondary-font: monospace;
+    --secondary-font: system-ui;
+
+    --box-shadow: -10px 5px 5px grey;
 
 
 }
