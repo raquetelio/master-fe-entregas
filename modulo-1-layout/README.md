@@ -25,3 +25,39 @@ La idea es partir de un color base, y a partir de ese color generar 4 colores m�
 - El resultado debería ser el siguiente:
 
 ![Resultado Ejercicio 1 Laboratorio layout](images/modulo1-layout-ejercicio1.png)
+
+
+## Ejercicio 2: Crear dos temas distintos y mostrar los resultados en una página.
+
+### Enunciado
+
+Crear dos temas distintos y mostrar los resultados en una página.
+
+
+### Resultado
+
+#### Visualizar Tema A
+
+- Editar el fichero index.html. 
+- Actualizar el enlace a la hoja de estilo con el tema A:
+
+    ```
+    <link rel="stylesheet" href="mystyle-themeA.css">
+    ```
+- Abrir el fichero index.html en un navegador. 
+
+    ![Resultado Ejercicio 2 Tema A Laboratorio layout](images/modulo1-layout-ejercicio2-temaA.png)
+
+
+#### Visualizar Tema B
+
+- Editar el fichero index.html. 
+- Actualizar el enlace a la hoja de estilo con el tema B:
+
+    ```
+    <link rel="stylesheet" href="mystyle-themeB.css">
+    ```
+- Abrir el fichero index.html en un navegador. 
+    ![Resultado Ejercicio 2 Tema B Laboratorio layout](images/modulo1-layout-ejercicio2-temaB.png)
+
+
