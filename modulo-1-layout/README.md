@@ -79,3 +79,7 @@ Me falta revisar el punto de breakpoint y poner un minimo al reducir pantalla
 
 Pendiente:
 refactorizar uso de font atributos
+
+
+me queda: centrar foto y poner pading a contenido y botón.
+Revisar responsividad
