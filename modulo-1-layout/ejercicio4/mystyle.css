@@ -1,0 +1,47 @@
+
+html{
+--primary-color: green;
+--primary-font-family: "Montserrat", sans-serif;
+--primary-font-weight: 300;
+--primary-font-optical-sizing: auto;
+--primary-font-style: normal;   
+
+}
+
+
+body {    
+    margin: 0;
+    padding: 0;  
+
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-font-weight);
+    font-optical-sizing: var(--primary-font-optical-sizing);
+    font-style: var(--primary-font-style);
+}
+
+.card {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: {
+        "image image"
+        "content content"
+        "more-info more-info"
+    };
+
+}
+
+.card-image {
+    grid-area: image;
+}
+
+.card-content {
+    grid-area: content;
+}
+
+.card-more-info { 
+    grid-area: more-info;
+}
+

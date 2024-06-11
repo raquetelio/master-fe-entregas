@@ -76,3 +76,6 @@ Me falta revisar el punto de breakpoint y poner un minimo al reducir pantalla
 
 
 ## Ejercicio 4: Crearemos un elemento de tipo card con Grid CSS.
+
+Pendiente:
+refactorizar uso de font atributos
