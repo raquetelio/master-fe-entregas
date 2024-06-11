@@ -1,6 +1,6 @@
 
 html{
---primary-color: green;
+--primary-color: lightgreen;
 --primary-font-family: "Montserrat", sans-serif;
 --primary-font-weight: 300;
 --primary-font-optical-sizing: auto;
@@ -21,27 +21,51 @@ body {
 
 .card {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    padding: 16px;
+    display: inline-grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 450px 450px 50px;
+    flex: 1;
 
-    grid-template-areas: {
-        "image image"
-        "content content"
+    grid-template-areas: 
+        "imagen imagen"
+        "contenido contenido"
         "more-info more-info"
-    };
+    ;
+
+    justify-items: stretch;
+    justify-content: left;
+    align-content: start;
+    overflow: hidden;
+
+
+   
 
 }
 
 .card-image {
-    grid-area: image;
+    grid-area: imagen;
+    
+    width: 300px;   
+    height:450px;
+
+    
 }
 
-.card-content {
-    grid-area: content;
+.card-content  {
+    grid-area: contenido;
+    width: 300px;   
+    height:450px;
+    overflow: hidden;
 }
 
 .card-more-info { 
     grid-area: more-info;
+    width: 300px;   
+    height:30px;
 }
 
+.card-button {
+   background-color: var(--primary-color);
+   border: 1px lightgreen;
+}
