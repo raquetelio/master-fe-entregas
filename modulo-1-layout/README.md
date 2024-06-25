@@ -83,3 +83,4 @@ refactorizar uso de font atributos
 
 me queda: centrar foto y poner pading a contenido y botón.
 Revisar responsividad
+Que me coja el estilo del título
