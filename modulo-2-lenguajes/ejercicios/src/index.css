@@ -9,7 +9,7 @@ html, body {
   background-color: #d9d9d9;
 }
 
-.jumbo {
+.header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;

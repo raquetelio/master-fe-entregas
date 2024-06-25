@@ -1,7 +1,7 @@
 {
-  "name": "playground-typescript",
+  "name": "playground-deliverable-exercises",
   "version": "1.0.0",
-  "description": "Master frontend Lemoncode, playground to play with Typescript code snippets",
+  "description": "Master frontend Lemoncode, playground for deliverable exercises",
   "keywords": [
     "lemoncode",
     "master",
@@ -34,6 +34,7 @@
   "dependencies": {
     "browser-sync": "^3.0.2"
   },
+  "peerDependencies": {},
   "devDependencies": {
     "concurrently": "latest",
     "copyfiles": "^2.x",

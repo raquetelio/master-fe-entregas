@@ -3,11 +3,9 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "target": "es5",
     "module": "esnext",
-    "moduleResolution": "Bundler",
+    "moduleResolution":"Bundler",
     "allowJs": true,
-    "outDir": "transpiled",
-    "noEmit": true,
-    "allowImportingTsExtensions": true
+    "outDir": "transpiled"
   },
   "compileOnSave": true,
   "exclude": ["node_modules"],
