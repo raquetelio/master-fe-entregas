@@ -5,7 +5,9 @@
     "module": "esnext",
     "moduleResolution": "Bundler",
     "allowJs": true,
-    "outDir": "transpiled"
+    "outDir": "transpiled",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   },
   "compileOnSave": true,
   "exclude": ["node_modules"],
