@@ -2,7 +2,7 @@ console.log("************** PRACTICE *********************");
 console.log("Biggest Word");
 
 
-function biggestWord(phrase: string) {
+function biggestWord(phrase: string):string {
 
     let biggest:string = "";
     
