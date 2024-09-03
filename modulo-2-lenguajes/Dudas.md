@@ -8,5 +8,9 @@ Cómo montar export/import en los directorios de 01-practica para poder usar un 
 export * from './01-practica-files';
 
 
+--------------------------
 
-
+Como se hacía lo de programación defensiva para chequear que el valor de un param es valido
+Lo he dejado así en el 102:
+ if(grade>10)
+        return null;
