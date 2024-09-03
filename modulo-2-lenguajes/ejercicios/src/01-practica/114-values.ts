@@ -2,7 +2,7 @@ console.log("************** PRACTICE *********************");
 console.log("114-Values:");
 
 
-function values<T>(obj: Object): T[] {    
+export function values<T>(obj: Object): T[] {    
   return Object.values(obj);
 }
 
