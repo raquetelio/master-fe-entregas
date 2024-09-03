@@ -2,6 +2,7 @@
 import "./01-practica/101-biggest-word.js";
 import "./01-practica/102-califications.js";
 import "./01-practica/114-values.js";
+import "./01-practica/103 check-arguments.js"
 
 import "./02-entregables/ejercicio-01.js";
 import "./02-entregables/ejercicio-02.js";
