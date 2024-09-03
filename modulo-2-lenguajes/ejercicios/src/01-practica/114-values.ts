@@ -2,14 +2,23 @@ console.log("************** PRACTICE *********************");
 console.log("114-Values:");
 
 
-function values(obj) {
-  // Implementation here
-    return Object.getOwnPropertyNames(obj).entries;
-  
+function values<T>(obj: Object): T[] {    
+  return Object.values(obj);
 }
 
 // Ejemplo:
 console.log(values({ id: 31, duration: 310, name: "long video", format: "mp4" })); // [31, 310, "long video", "mp4"]
 
 
-const value = (obj,pos) =>  obj[pos];
+//Evita añadir las propiedades heredadas en caso de ser instancia de una clase:
+// Ejemplo:
+function Person(name: string) {
+  this.name = name;
+}
+
+Person.prototype.walk = function() {
+  console.log("I'm walking");
+};
+
+var john = new Person("John");
+console.log(values(john)); // ["John"]; en vez de ["John"; function() { console.log("I'm walking"); }]
