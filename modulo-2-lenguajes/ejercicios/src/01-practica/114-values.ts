@@ -1,5 +1,4 @@
-console.log("************** PRACTICE *********************");
-console.log("114-Values:");
+console.log("*** 114-Values:");
 
 
 export function values<T>(obj: Object): T[] {    

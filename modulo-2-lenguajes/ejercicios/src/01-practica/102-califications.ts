@@ -1,5 +1,4 @@
-console.log("************** PRACTICE *********************");
-console.log("102-Califications:");
+console.log("*** 102-Califications:");
 
 import { values  } from "../01-practica/114-values.js";
 

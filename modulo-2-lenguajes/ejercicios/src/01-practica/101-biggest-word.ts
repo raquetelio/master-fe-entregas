@@ -1,5 +1,5 @@
 console.log("************** PRACTICE *********************");
-console.log("Biggest Word:");
+console.log("*** 101-Biggest Word:");
 
 
 export function biggestWord(phrase: string):string {

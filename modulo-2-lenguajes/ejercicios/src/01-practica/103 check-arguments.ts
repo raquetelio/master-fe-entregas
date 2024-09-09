@@ -1,5 +1,4 @@
-console.log("************** PRACTICE *********************");
-console.log("103-Check arguments:");
+console.log("*** 103-Check arguments:");
 
 
 function f(input) {
@@ -19,6 +18,9 @@ function f2(input: string):string {
   return input ?? (input === undefined ? "Unknown" : "");
 
 }
+
+
+//Test
 
 console.log("Initial implementation VS Improved implementation:");
 
