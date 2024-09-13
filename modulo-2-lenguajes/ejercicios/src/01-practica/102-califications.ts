@@ -3,6 +3,18 @@ console.log("*** 102-Califications:");
 import { values  } from "../01-practica/114-values.js";
 
 
+/**
+ * Dada la calificación de alumnos de una clase en forma de objeto como el siguiente: ....
+ * Implementa una función que muestre la media de la clase de forma textual, es decir, 
+ * siguiendo el sistema de calificación español:
+ * 
+ * TIP: Rompe en tantas funciones auxiliares como necesites.
+ *
+ * TIP: Utiliza el ejercicio "values" para extraer los valores de un objeto. 
+ * En Array.prototype también cuentas con otro método que podría resultarte útil para 
+ * transformar un array a un único valor.
+ */
+
 interface StudentsGrade{
     [nombre: string]:number;
 };

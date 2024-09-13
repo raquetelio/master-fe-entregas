@@ -1,5 +1,6 @@
 console.log("*** 114-Values:");
 
+//Escribe una función que devuelva una lista de valores de todas las propiedades de un objeto:
 
 export function values<T>(obj: Object): T[] {    
   return Object.values(obj);
