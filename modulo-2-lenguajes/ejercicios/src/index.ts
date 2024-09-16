@@ -7,6 +7,7 @@ import "./01-practica/104-clone-merge.js";
 import "./01-practica/105-deep-equal.js";
 import "./01-practica/106-dices.js";
 import "./01-practica/107-hoisting.js";
+import "./01-practica/108-includes.js";
 
 import "./02-entregables/ejercicio-01.js";
 import "./02-entregables/ejercicio-02.js";
