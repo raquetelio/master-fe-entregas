@@ -12,6 +12,7 @@ import "./01-practica/109-primes.js";
 import "./01-practica/110-read-book.js";
 import "./01-practica/111-reverse-text.js"
 import "./01-practica/112-subsets.js"
+import "./01-practica/113-this.js"
 
 import "./02-entregables/ejercicio-01.js";
 import "./02-entregables/ejercicio-02.js";
