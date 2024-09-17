@@ -9,6 +9,7 @@ import "./01-practica/106-dices.js";
 import "./01-practica/107-hoisting.js";
 import "./01-practica/108-includes.js";
 import "./01-practica/109-primes.js";
+import "./01-practica/110-read-book.js";
 
 import "./02-entregables/ejercicio-01.js";
 import "./02-entregables/ejercicio-02.js";
