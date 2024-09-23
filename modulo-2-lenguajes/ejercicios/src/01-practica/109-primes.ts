@@ -6,13 +6,11 @@ encuentre los números primos entre ellos y los muestre por pantalla.*/
 
 
 function isPrime(num:number):boolean{   
-       
-    const absNum:number = Math.abs(num);
+           
+    if(num<2) return false;
 
-    if(absNum<2) return false;
-
-    for (let i:number=2; i<= Math.sqrt(absNum); i++){
-        if(absNum%i===0) return false;
+    for (let i:number=2; i<= Math.sqrt(num); i++){
+        if(num%i===0) return false;
     }   
     return true;
 }
@@ -23,5 +21,5 @@ function showPrimes(from: number, to: number):void {
     isPrime(i) ? console.log(i + " is PRIME!") : console.log(i + " is not a prime");  
 }
 
-showPrimes(1,60);
-//showPrimes(-10,-1);
+showPrimes(1,10);
+
